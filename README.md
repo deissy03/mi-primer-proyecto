@@ -2,8 +2,8 @@
 
 **Deissy Esther Esquivia Perez**
 - - -
-Diseñadpra de Modas
-Estudiante de Ingeneria de Sistemas
-Estudiante de Desarrollo web
+Técnica profesional en soporte de sístemas en informática
+Estudiante de Ingenería de Sístemas
+Estudiante de Desarrollo web Full Stack
 
 @autor: Deisy Esquivia Perez

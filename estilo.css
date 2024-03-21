@@ -1,0 +1,305 @@
+*{
+   margin:0;
+   padding: 0;
+}
+.alinear-text {
+   width: 85%;
+   max-width: 750px;
+   margin: auto;
+   
+   
+}
+
+.rubik-distressed-regular {
+   font-family: "Rubik Distressed", system-ui;
+   font-weight: 400;
+   font-style: normal;
+ }
+
+  .p1::first-line{
+
+   color: rgb(220, 128, 188);
+   font-size: 20px;
+ }
+
+  .p1::first-letter {
+   color:rgb(66, 159, 236) ;
+   font-size: 32px;
+ }
+
+
+.header {
+   background: #c79fab;
+   color: rgb(9, 9, 9);
+   padding: 45PX;
+   position: fixed;
+   left: 0;
+   top: 0;
+   right: 0;
+   height: 70px;
+}
+
+
+.header .titulo {
+   font-size: 35px;
+   margin: auto;
+   text-align: center;
+   font-family: "Rubik Distressed", system-ui;
+   font-weight: 400;
+   font-style: normal;
+   color: beige;
+}
+
+.header a {
+   color: #dfe4e1;
+   text-decoration: none;
+}
+
+.cualidades-defectos{
+   display: flex;
+   justify-content: center;
+   align-items:center;
+   width: 100%;
+   gap:10px;
+   margin-top: 20px;
+}
+.cualidades{
+   background: #c79fab; 
+   padding: 25px;
+   height: 100px;
+
+}
+.defectos{
+   background: #c79fab; 
+   padding: 25px;
+   height: 100px;
+   justify-content: center;
+  
+  
+}
+
+.abril-fatface-regular {
+   font-family: "Abril Fatface", serif;
+   font-weight: 400;
+   font-style: normal;
+}
+
+main {
+   padding-top: 10px;
+}
+
+body {
+   background: #eae4e0;
+  
+}
+
+img {
+   width: 130px;
+   height: 130px;
+ 
+}
+.imagenfoto{
+   width: 200px;
+   height: 200px;
+   margin-inline: 40%;
+   border:double 5px #c79fab; 
+}
+
+.flia{
+   justify-content: center;
+   display: flex;
+   gap:10px;
+   margin-top: 20px;
+
+  
+   
+}
+
+.img1{
+ width: 195px;
+ height: 280px;
+ margin-left: 40px;
+ border-radius: 20px 0 20px 0;
+}
+
+
+.movimiento:hover {
+   animation: rotar 2s;
+ }
+ @keyframes rotar {
+   0% {
+     transform: rotate(0deg);
+   }
+   100% {
+     transform: rotate(360deg);
+   }
+ }
+ .material-symbols-outlined{
+   width: 50px;
+   height: 60px;
+   color:rgb(66, 159, 236);
+   text-align: center;
+   
+ }
+
+.icono {
+   width: 20px;
+   height: 20px;
+}
+
+
+table {
+   border-collapse: collapse;
+   caption-side: top;
+   margin-inline: 25%;
+}
+
+th {
+   background-color: #c79fab;
+
+}
+
+caption {
+   padding-top: 20px;
+   font-size: 30px;
+   color: #c79fab;
+}
+
+td,
+th {
+   border: solid 2px #c79fab; 
+   padding-left: 40px;
+   padding-right: 40px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+figure {
+  
+   width: 100%;
+   color: #c79fab;
+   margin-top: 200px;
+
+}
+
+.container-nav {
+   display: flex;
+   justify-content: right;
+}
+
+.navigation ul {
+   margin: 0;
+   padding: 0;
+   list-style:none;
+
+}
+
+.navigation ul li {
+   display: inline-block;
+   letter-spacing: 0, 20px;
+   margin: 10px;
+}
+
+.navigation ul li a {
+   display: block;
+   padding-left: 0, 2rem 1rem;
+   transition: all 0.4s linear;
+   color:beige  ;
+   
+ 
+
+}
+
+
+.navigation ul li a:hover {
+   background:beige ; 
+}
+.text{
+   text-align: center;
+   font-size: 40px;
+   color: #c79fab;
+}
+
+.imagenes-bolsos{
+   justify-content: center;
+   display: flex;
+   width: 100%;
+   gap:10px;
+}
+
+.imagen{
+ width: 210px;
+ height: 270px;
+margin-left: 30px;
+margin-right: 20px;
+border-radius: 20% 10% 20% 10% / 10%  20% 10% 20%;
+ 
+}
+.footer {
+   background: #c79fab;
+   text-align: center;
+   width: 100%;
+   margin-top: 120px;
+   color:beige; 
+   display:block;
+
+}
+.h-color{
+   color:rgb(18, 18, 18); 
+   font-family:  "Abril Fatface", serif;
+   font-weight: 400;
+   font-style: normal;
+}
+
+label {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+}
+input {
+   position: absolute;
+   top: 15px;
+   right: 30px;
+   width: 40px;
+   height: 20px;
+   display: none;
+   z-index: 2;
+}
+input:checked + nav {
+  width: 110%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+  background-color: rgb(99, 176, 239); 
+  transform: translateY(0);
+  position:absolute;
+}
+nav {
+  position: absolute;
+  transform: translateY(-100%);
+  transition: all 1000ms ease-in-out;
+  display:none ;
+  left: 0;
+}
+@media screen and (min-width: 768px) {
+   header {
+     position: unset;
+   }
+  
+   nav {
+     position: unset;
+     transform: translateY(0);
+     margin-top: 20px;
+     justify-content: space-evenly;
+   }
+ }
+ @media screen and (min-width: 1024px) {
+   nav {
+     justify-content: end;
+     gap: 20px;
+     padding-right: 20px;
+   }
+ }
