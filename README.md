@@ -1,6 +1,6 @@
 # Mi Primer Proyecto
 
-**Deissy Esther Esquivia Perez**
+**Mí vida en palabras: Un relato auténtico**
 - - -
 -Técnica profesional en soporte de sístemas en informática.
 
