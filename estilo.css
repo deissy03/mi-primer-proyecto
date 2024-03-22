@@ -42,7 +42,7 @@
 
 
 .header .titulo {
-   font-size: 35px;
+   font-size: 38px;
    margin: auto;
    text-align: center;
    font-family: "Rubik Distressed", system-ui;
@@ -137,10 +137,11 @@ img {
    }
  }
  .material-symbols-outlined{
-   width: 50px;
-   height: 60px;
+   width: 60px;
+   height: 0px;
    color:rgb(66, 159, 236);
    text-align: center;
+ 
    
  }
 
